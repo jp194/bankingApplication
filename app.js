@@ -51,8 +51,9 @@ app.use(function(err, req, res, next) {
 
 
 
+//url="mongodb://localhost:27017/banking";
 
-const connect=mongoose.connect("mongodb://localhost:27017/banking");
+const connect=mongoose.connect(process.env.DB_URL);
 
 connect.then((db)=>{
   console.log("Connected succesfully to mongoserver");

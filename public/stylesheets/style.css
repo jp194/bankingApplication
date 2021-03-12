@@ -105,3 +105,15 @@ margin-top: 30px;
   
 
   }
+
+.details{
+
+  transition: background  2s ease-in-out 0.2s;
+
+ 
+}
+
+.details:hover{
+  background-color: rgba(0, 81, 255, 0.445);
+  
+}
