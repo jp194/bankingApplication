@@ -35,7 +35,7 @@ a {
   font-family: Helvetica;
   border: transparent;
   display: block;
-  max-width: 1300px;
+  max-width: 100%;
   margin-top: 10px;
   margin-left: 0px;
   margin-right: 0px;;
@@ -96,10 +96,7 @@ a {
   background:#E0E0E0; 
 margin-top: 30px;
   padding-left: 30px;
-  max-width: 1300px;
-  margin-right: 0px;
 
- display: block;
 }
 
 .table{
